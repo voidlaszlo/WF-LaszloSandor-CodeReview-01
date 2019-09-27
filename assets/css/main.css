@@ -34,6 +34,10 @@ header > nav.navbar > ul.nav-list > li.nav-lits-item > a, a:link, a:visited {
     text-decoration: none;
 }
 
+header > nav.navbar > ul.nav-list > li.nav-lits-item > a:hover {
+    color: grey;
+}
+
 /* MAIN CONTENT */
 main.container {
     padding: 0.5em 2em;
