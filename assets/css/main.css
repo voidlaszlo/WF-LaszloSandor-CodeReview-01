@@ -71,6 +71,7 @@ section.articles-top > div.articles-left {
 
 section.articles-top > div.articles-left > div.card {
     width: 85%;
+    animation: showUp 3s;
 }
 
 section.articles-top > div.articles-left > h2 {
@@ -301,5 +302,16 @@ footer > p {
 
     footer > p {
         padding: 1em;
+    }
+}
+
+@keyframes showUp {
+    0% {
+        transform: translate(-50px);
+        opacity: 0;
+    }
+
+    100% {
+
     }
 }
