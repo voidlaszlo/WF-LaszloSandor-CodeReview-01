@@ -56,6 +56,25 @@ main.container > h2 {
     padding-left: 0.5em;
 }
 
+main.container > div.article {
+    display: flex;
+    margin: 2em 0;
+}
+
+main.container > div.article > img {
+    width: 500px;
+}
+
+main.container > div.article > div.text {
+    padding: 1em;
+}
+
+main.container > div.article > div.text > small {
+    display: block;
+    font-style: italic;
+    text-align: right;
+}
+
 /* ARTICLES-TOP-HALF */
 section.articles-top {
     display: grid;
@@ -227,6 +246,16 @@ footer > p {
 
     main.container > small {
         display: none;
+    }
+
+    main.container > div.article {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    main.container > div.article > img {
+        width: 90%;
+        align-self: center;
     }
 
     /* ARTICLES TOP */
