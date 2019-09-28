@@ -112,7 +112,7 @@ section.articles-top > div.articles-right > img {
 }
 
 /* MIDDLE IMAGE */
-main.container > img#middle-image {
+main.container > a > img#middle-image {
     width: 90%;
     display: block;
     margin: 1em auto;
