@@ -203,7 +203,11 @@ footer > p {
 /* MOBILE VERSION - QUERIES */
 @media screen and (max-width: 480px) {
     /* HEADER */
-    header > nav.navbar > div.nav-top > [alt="banner"] {
+    header > nav.navbar > div.nav-top {
+        padding: 1em;
+    }
+
+    header > nav.navbar > div.nav-top > a > img {
         display: none;
     }
     
@@ -280,7 +284,7 @@ footer > p {
     }
 
     /* MIDDLE IMAGE */
-    main.container > img#middle-image {
+    main.container > a > img#middle-image {
         display: none;
     }
 
